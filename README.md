@@ -14,15 +14,14 @@
 - **LM Studio** — работа с локальными LLM
 - **OpenCode** — cloud IDE
 
-## Предложение для установки на новом рабочем месте
+## Приложения для установки на новом рабочем месте
 
-1. Установить приложения из списка выше
-2. Склонировать репозиторий:
-   ```powershell
-   git clone https://github.com/smirnov0ser/mydesktop.git
-   ```
-3. Запустить скрипт:
-   ```powershell
-   .\RunApp.ps1
-   ```
-4. Проверить пути в `RunApp.ps1` — при необходимости поправить под свои
+- Notepad++
+- mRemoteNG
+- Google Chrome
+- Microsoft Office
+- Dion
+- Telegram Desktop
+- Handy
+- LM Studio
+- OpenCode
