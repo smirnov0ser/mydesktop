@@ -12,5 +12,5 @@
 - **Telegram Desktop** — мессенджер
 - **Handy computers** — голосовой ввод. Модель Whisper Large, постобработка локальной qwen3.5
 - **LM Studio** — работа с локальными LLM
-- **OpenCode или VS Code + Kimi** - IDE с агентами
+- **OpenCode или VS Code + Kilo code** - IDE с агентами
 
