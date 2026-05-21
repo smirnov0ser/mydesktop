@@ -1,36 +1,28 @@
-# Рабочая среда
+# Рабочая стена
 
-Проект для настройки рабочего окружения.
+Скрипт для автоматического запуска рабочих приложений.
 
-## Установленные приложения
+## Состав рабочего места
 
-### Системные
-- Notepad++ (C:\Program Files\Notepad++\notepad++.exe)
-- mRemoteNG (C:\Program Files (x86)\mRemoteNG\mRemoteNG.exe, конфиги: C:\Users\smirn\OneDrive\mRemouteNg)
-- Google Chrome
-- Microsoft Office
+- **Notepad++** — текстовый редактор
+- **mRemoteNG** — управление удалёнными подключениями
+- **Google Chrome** — браузер
+- **Microsoft Office (Outlook)** — почта и документы
+- **Dion** — корпоративный мессенджер
+- **Telegram Desktop** — мессенджер
+- **Handy** — заметки/мусорная утилита
+- **LM Studio** — работа с локальными LLM
+- **OpenCode** — cloud IDE
 
-### Сетевые подключения
-- OpenVPN-2.7.1-I001-amd64 (конфиги: C:\Users\smirn\OneDrive\vpnconfig)
-- Cisco AnyConnect_5.1.7.80
+## Предложение для установки на новом рабочем месте
 
-### Полезные утилиты
-- Lightshot
-- WinDirStat
-- Яндекс Диск
-- Google Диск
-- Telegram Desktop
-- Handy (мусорная утилита)
-- LM Studio
-- Dion
-
-### Cloud IDE
-- OpenCode
-
-## Быстрый запуск всех приложений
-
-```powershell
-.\RunApp.ps1
-```
-
-Линк к ЛУРВу: `C:\Users\smirn\OneDrive\ЛУРВы`
+1. Установить приложения из списка выше
+2. Склонировать репозиторий:
+   ```powershell
+   git clone https://github.com/smirnov0ser/mydesktop.git
+   ```
+3. Запустить скрипт:
+   ```powershell
+   .\RunApp.ps1
+   ```
+4. Проверить пути в `RunApp.ps1` — при необходимости поправить под свои
